@@ -1,0 +1,24 @@
+{
+  "name": "fire-about",
+  "version": "0.0.1",
+  "description": "about page for Fireball",
+  "author": "Firebox Technology",
+  "hosts": {
+      "editor-framework": "^0.3.6"
+  },
+  "main": "main.js",
+  "menus": {
+    "Help/About Fireball": {
+      "message": "fire-about:open"
+    }
+  },
+  "panels": {
+    "panel": {
+      "frame": "panel/about.html",
+      "type": "fixed-size",
+      "title": "fire-about",
+      "width": 400,
+      "height": 180
+    }
+  }
+}
